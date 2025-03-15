@@ -1,6 +1,6 @@
 # Book CRUD API in Go
 
-A simple CRUD (Create, Read, Update, Delete) API for managing books, built using Go and a PostgreSQL database.
+A simple CRUD API for managing books, built using Go and a PostgreSQL database.
 
 ## Features
 - Create a new book
