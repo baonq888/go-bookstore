@@ -1,6 +1,8 @@
 package config
 
 import (
+	"fmt"
+
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
@@ -15,6 +17,7 @@ func Connect() {
 	if err != nil {
 		panic(err)
 	}
+	fmt.Println("Connected to database")
 	db = d
 }
 
